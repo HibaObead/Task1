@@ -1,0 +1,27 @@
+.greeting-class {
+    text-align: center;
+    background: linear-gradient(135deg, #f8ff00, #3ad59f);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.greeting-class h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+.greeting-class button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #3ad59f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.greeting-class button:hover {
+    background-color: #33a578;
+}
